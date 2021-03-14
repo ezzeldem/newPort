@@ -24,7 +24,7 @@ body::before {
         background-attachment: fixed;
     }
 }
-@media (min-width: 772px) {
+@media (max-width: 772px) {
     body::before {
         background-position-x: 26%;
     }
