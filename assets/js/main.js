@@ -135,10 +135,10 @@
       width: "90%",
       height: "90vh",
     });
-  new Swiper(".portfolio-details-slider", {
-    speed: 400,
-    loop: !0,
-    autoplay: { delay: 5e3, disableOnInteraction: !1 },
-    pagination: { el: ".swiper-pagination", type: "bullets", clickable: !0 },
-  });
+  // new Swiper(".portfolio-details-slider", {
+  //   speed: 400,
+  //   loop: !0,
+  //   autoplay: { delay: 5e3, disableOnInteraction: !1 },
+  //   pagination: { el: ".swiper-pagination", type: "bullets", clickable: !0 },
+  // });
 })();
