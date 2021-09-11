@@ -939,6 +939,9 @@ section .container {
     font-weight: 600;
     font-size: 18px;
 }
+.dwonlode-cv-box .dwonlode-cv.see_my_own {
+    background-color: #333;
+}
 .dwonlode-cv-box .dwonlode-cv i {
     font-size: 22px;
 }
