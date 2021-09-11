@@ -120,7 +120,7 @@
                     <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
+                            <span data-purecounter-start="0" class="project-box" data-purecounter-end="" data-purecounter-duration="1" class="purecounter"></span>
                             <p>Projects</p>
                         </div>
                     </div>
@@ -256,9 +256,10 @@
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio">
             <div class="container">
-                <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>My Works</p>
+                        <div class="section-title">
+                            <h2>Portfolio</h2>
+                            <p>My Works</p>
+                        </div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -533,6 +534,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -617,6 +619,15 @@
                     $("#lodding-page").fadeOut();
                 });
             });
+            
+
+
+            const project_count = $(".portfolio-item").size();
+            
+
+            $(".project-box").html( project_count)
+
+
         </script>
     </body>
 </html>
