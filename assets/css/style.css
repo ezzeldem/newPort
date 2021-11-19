@@ -452,14 +452,45 @@ section .container {
     font-family: Poppins, sans-serif;
     color: #fff;
 }
-.about-me .content h3 {
+.title  {
     font-weight: 700;
     font-size: 26px;
     color: #18d26e;
+    margin-bottom: 10px;
+}
+.subtitle  {
+    font-weight: 700;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.padding-name{
+    padding-bottom: 30px;
+}
+
+.prag{
+    font-size: 16px;
+    width: 70%;
+    padding: 0 20px;
+}
+
+
+.project_list li a {
+    color: #eee;
+}
+
+.project_list li a i{
+    color: #18d26e;
+}
+.linksspan{
+    font-size: 16px;
+    padding: 10px;
+    display: block; 
+    color: #14b15d;
 }
 .about-me .content ul {
     list-style: none;
-    padding: 0;
+    padding: 0;  
 }
 .about-me .content ul li {
     margin-bottom: 20px;
